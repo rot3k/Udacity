@@ -2,7 +2,7 @@
 Projects regarding Udacity front-end course.
 The Projects have been sorted by branches.
 
-1. Personal Blog Web Site
+1. Personal Blog Web Site https://github.com/rot3k/Udacity/tree/project1
 2. Landing Page
 3. Weather Journal App
 4. Evaluate a News Article with Natural Language Processing
