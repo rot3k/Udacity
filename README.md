@@ -1,5 +1,6 @@
 # Udacity
-Projects regarding Udacity front-end course
+Projects regarding Udacity front-end course.
+The Projects have been sorted by branches.
 
 1. Personal Blog Web Site
 2. Landing Page
