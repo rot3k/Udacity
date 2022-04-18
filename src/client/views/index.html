@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Evaluate a News Article with Natural Language Processing</title>
+    <link rel="stylesheet" href="/styles/resets.scss" />
+    <link rel="stylesheet" href="/styles/base.scss" />
+    <link rel="stylesheet" href="/styles/header.scss" />
+    <link rel="stylesheet" href="/styles/form.scss" />
+    <link rel="stylesheet" href="/styles/footer.scss" />
+  </head>
+
+  <body>
+    <header>
+      <div class="">Logo</div>
+      <div class="">navigation</div>
+    </header>
+
+    <main>
+      <section>
+        <form class="" onsubmit="Client.handleSubmit(event)">
+          <input
+            id="input"
+            type="text"
+            name="input"
+            value=""
+            placeholder="Input"
+          />
+          <input
+            type="submit"
+            name=""
+            value="submit"
+            onclick="Client.handleSubmit(event)"
+            onsubmit="handleSubmit(event)"
+          />
+        </form>
+      </section>
+
+      <section>
+        <strong>Form Results:</strong>
+        <div id="model"></div>
+        <div id="score_tag"></div>
+        <div id="agreement"></div>
+        <div id="subjectivity"></div>
+        <div id="confidence"></div>
+        <div id="irony"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>This is a footer</p>
+    </footer>
+  </body>
+
+  <script>
+    // Check that service workers are supported
+    if ("serviceWorker" in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/service-worker.js");
+      });
+    }
+  </script>
+</html>
