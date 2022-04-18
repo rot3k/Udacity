@@ -1,6 +1,4 @@
-const geoNames_key = "rot3k";
-const weatherBitKey = "4384bdb17de94cf6b380fb6b1644de83";
-const pixabayKey = "25992387-696612f686fc08fdcec7351f2";
+
 const submit = document.getElementById("generate");
 
 if (submit) {
