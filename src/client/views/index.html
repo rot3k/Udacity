@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner</title>
+    <link href="../styles/style.scss" />
+  </head>
+  <body>
+    <h1>Travel Planner</h1>
+    <main>
+    <div class="flexContainer">
+      <div class="cityImage" >
+        <img id="image" />
+      </div>
+      <div class="trip">
+        <div class="city">
+          <label for="city">My Trip To </label>
+            <input type="text" id="city"/>
+          </label>
+        </div>
+        
+        <div class="dDate">
+          <label for="date">Departing&nbsp;</label>
+          <input
+            type="date"
+            id="deptdate"
+            class="dDate"
+            placeholder="MM-DD-YYYY"
+          />
+        </div>
+        <div class="rDate">
+          <label for="date">Returning&nbsp;</label>
+          <input
+            type="date"
+            id="retdate"
+            class="rDate"
+            placeholder="MM-DD-YYYY"
+          />
+        </div>
+        <button id="generate" class="button" type="submit">submit</button>
+      
+      <div class="output">
+        <div id="dDays"></div>
+        <div id="weatherInfo"></div>
+      </div>
+    </div>
+    </div>
+      
+    </div>
+  </main>
+
+    <footer>
+      <p>Udacity Fend Capstone - Travel App </p>
+    </footer>
+
+    <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
+  <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
