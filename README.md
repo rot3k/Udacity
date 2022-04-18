@@ -23,3 +23,6 @@ Create Weather Journal Application using Web API and user data to dynamically up
 - Create server-side on server.js
 - Create client-side on app.js
 - Update css to make it fit on the normal desktop monitor screen
+
+## Screenshot
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/57276658/163853534-335c75ce-d296-40a8-bf2d-f9dc2511e79f.png">
