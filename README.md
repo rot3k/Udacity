@@ -21,3 +21,6 @@ Create News Article with Natural Language Processing (NLP) to use MeaningCloud A
 - Implement regex to check the URL validity and function to check the text validity
 - Create test (testFormHandler.js)
 - Set up service workers
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/57276658/163859246-cdb785e7-b7d2-47ac-8df3-8bb063b1c197.png)
