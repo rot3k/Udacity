@@ -6,7 +6,6 @@ const FormData = require("form-data");
 
 const apiURL = "https://api.meaningcloud.com/sentiment-2.1";
 // process.env not working
-const key = "e7986b316b8f5ed21843132c86f03e7f";
 console.log(`Your API key is ${key}`);
 
 var path = require("path");
